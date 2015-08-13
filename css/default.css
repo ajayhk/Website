@@ -1,0 +1,73 @@
+/* CSS Document */
+
+/*##############################################################
+  Eric Meyer's Reset.css (includes Baseline)
+##############################################################*/ 
+
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+a img, :link img, :visited img {border: 0}
+table {border-collapse: collapse; border-spacing: 0}
+q:before, q:after,
+blockquote:before, blockquote:after {content: ""}
+
+/*##############################################################
+  Element Styles
+##############################################################*/
+
+h1 {margin-left:15px; padding-top:22px; padding-left:100px; font-size:38px; color:#fff; background:url(../images/example_logo.png) left 19px no-repeat}
+h3, h4, h5, h6 {margin:20px 0 15px 0; font-weight:bold; font-family:Futura; color:#fff}
+h2 {clear:both;margin:50px 0 15px 0; font-size:48pt; font-weight:bold; font-family:Futura; color:#fff}
+h3 {font-size:22px; font-weight:normal}
+ul, ol, dl, li {margin:15px 0 0}
+p {width:100%; text-align:justify; margin:15px 0 0 0}
+a {color:#a63c3c; text-decoration:underline; outline:none}
+	a:hover {text-decoration:none}
+	
+.clear {clear:both; float:left}
+
+/*##############################################################
+  Layout Styles
+##############################################################*/
+
+body {font-size:14px; font-family:Helvetica, Arial, Verdana, sans-serif; color:#f1f0f0; background:#141213 url(../images/body_bg.jpg) 50% top no-repeat}
+
+#wrapper {width:830px; overflow:hidden; padding:0 0 0 50px; background:url(../images/header_bg.jpg) 50% top no-repeat}
+	
+	#header {width:960px; height:80px;margin:0 0 0px 5px}
+	
+	#navigation {height:52px; width:832px; border-right:1px solid #000; border-top:1px solid #000;list-style-type:none; background:url(../images/nav_bg.png) 50% top repeat-x}
+		#navigation li {float:left; width:164px; margin:0; font-size:18px; color:#fff}
+			#navigation li a {display:block; height:35px; padding-top:16px; border-right:1px solid #1c1b1b; border-left:1px solid #000; text-align:center; color:#fff; text-decoration:none}
+				#navigation li a:hover {color:#62acff; text-decoration:none}
+	
+	#content {width:805px; padding:0 13px; border:1px solid #020202; background:url(../images/content_bg.png) 50% top repeat}
+	
+		#main_content {float:left; display:inline; width:526px; margin:0 0 30px 0}
+			#main_content p {width:526px}
+			.two_columns {float:left; display:inline; margin-right:30px; width:247px}
+			#main_content .two_columns p {width:247px}
+			#main_content .right_column {margin:0}
+	
+		#sidebar {float:right; display:inline; width:247px; margin-left:30px}
+				
+		#footer {clear:both; padding:100px 0 30px 0; font-size:.85em}
+		

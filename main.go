@@ -6,7 +6,7 @@ import (
 )
  
 func main() {
-    http.Handle("/", http.FileServer(http.Dir("~/workspace/goWS/src/bitbucket.org/myhomepage/static/")))
+    http.Handle("/", http.FileServer(http.Dir("~/workspace/goWS/src/github.com/Website/static/")))
     err := http.ListenAndServe(":80", nil)
     if err != nil {
         log.Fatal("ListenAndServe: ", err)
